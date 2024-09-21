@@ -55,7 +55,7 @@
 <ul>
   <li><strong>Email:</strong> <a href="mailto:heysapu@gmail.com">heysapu@gmail.com</a></li>
   <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sapumalprasanna">Sapumal Prasanna</a></li>
-  <li><strong>GitHub:</strong> <a href="https://github.com/SapPras">SapPras</a></li>
+  <li><strong>GitHub:</strong> <a href="https://github.com/sapuCodes">sapuCodes</a></li>
 </ul>
 
 <p align="center">✨ Thank you for visiting! Feel free to explore, contribute, or get in touch. ✨</p>
