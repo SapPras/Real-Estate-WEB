@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 - Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logoicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+    <a href="index.html">
+        <img src="logo.png" alt="Sapumal Real Estate Logo" class="logo">
+    </a>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="project-title">Project 2: Ocean Breeze Hikkaduwa</h2>
+        
+        <div class="project-details">
+            <div class="details">
+                <h3>Project Details</h3>
+                <p><strong>Description:</strong> Ocean Breeze Hikka features 14 floors of apartments, 5 levels of parking, and 3 levels of recreational areas, including restaurants on the lower ground and rooftop, coffee shops on the ground floor, swimming pools below ground, and gyms and spas on the rooftop. The complex has 258 units with scenic views, ranging from studios to three-bedroom apartments, including duplexes and dual-key options.</p>
+                <p><strong>Price:</strong> LKR 22M</p>
+                <p><strong>Size:</strong> 400-1721 SQFT</p>
+                <p><strong>Amenities:</strong> Pool, Gym, Private Garden, Security, and more.</p>
+            </div>
+            
+            <div class="map">
+                <h3>Location</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d15865.375087953718!2d80.05744!3d6.218317!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTMnMDUuOSJOIDgwwrAwMycyNi44IkU!5e0!3m2!1sen!2sus!4v1724260824599!5m2!1sen!2sus" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <h3 class="gallery-title">Property Gallery</h3>
+            <div class="gallery-slider">
+                <div class="gallery-cards">
+                    <div class="gallery-card">
+                        <img src="project2.jpg" alt="Ocean Breeze Hikkaduwa Project Main Image">
+                    </div>
+                    <div class="gallery-card">
+                        <img src="project2_2.jpg" alt="Ocean Breeze Hikkaduwa Project Additional Image 1">
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-slider-controls">
+                <button class="control-btn" onclick="prevSlide()">&#10094; Prev</button>
+                <button class="control-btn" onclick="nextSlide()">Next &#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sapumal Real Estate. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

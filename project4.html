@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4 - Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logoicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+    <header>
+    <a href="index.html">
+        <img src="logo.png" alt="Sapumal Real Estate Logo" class="logo">
+    </a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="project-title">Project 4: The Beachfront Uswetekeiyawa</h2>
+        
+        <div class="project-details">
+            <div class="details">
+                <h3>Project Details</h3>
+                <p><strong>Description:</strong> The Beachfront II offers your own private villa in the sky, featuring over 15 amenities for relaxation. Choose from chic one, two, and three-bedroom apartments designed for spaciousness and panoramic views, from the stunning Colombo skyline to the crystal-clear Indian Ocean.</p>
+                <p><strong>Price:</strong> LKR 31M</p>
+                <p><strong>Size:</strong> 851 SQFT</p>
+                <p><strong>Amenities:</strong> Swimming Pool, Backup Generator, Infinity Pool, Lift, Restaurant etc.</p>
+            </div>
+            
+            <div class="map">
+                <h3>Location</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d15838.871642960063!2d79.858259!3d7.0424!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDInMzIuNiJOIDc5wrA1MScyOS43IkU!5e0!3m2!1sen!2sus!4v1724263367543!5m2!1sen!2sus" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <h3 class="gallery-title">Property Gallery</h3>
+            <div class="gallery-slider">
+                <div class="gallery-cards">
+                    <div class="gallery-card">
+                        <img src="project4.jpg" alt="The Beachfront Uswetekeiyawa Project Main Image">
+                    </div>
+                    <div class="gallery-card">
+                        <img src="project4_2.jpg" alt="The Beachfront Uswetekeiyawa Project Additional Image 1">
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-slider-controls">
+                <button class="control-btn" onclick="prevSlide()">&#10094; Prev</button>
+                <button class="control-btn" onclick="nextSlide()">Next &#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sapumal Real Estate. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

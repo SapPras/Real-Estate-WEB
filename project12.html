@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 12 - Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logoicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+    <a href="index.html">
+        <img src="logo.png" alt="Sapumal Real Estate Logo" class="logo">
+    </a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="project-title">Project 12: Colombo City Centre</h2>
+        
+        <div class="project-details">
+            <div class="details">
+                <h3>Project Details</h3>
+                <p><strong>Description:</strong> Colombo City Centre is leading the transformation of Sri Lanka into a vibrant global city. With its prime location and innovative design, it blends Colombo's rich cultural heritage with modern, progressive style, offering a dynamic urban experience.</p>
+                <p><strong>Price:</strong> per sqft Rs. 144,565</p>
+                <p><strong>Size:</strong> 986-11302 SQFT</p>
+                <p><strong>Amenities:</strong> Swimming Pool, Cinema Hall, Shopping, Spa, Roof Top, Car Parking, AC etc.</p>
+            </div>
+            
+            <div class="map">
+                <h3>Location</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d15843.096291594362!2d79.855161!3d6.917592!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTUnMDMuMyJOIDc5wrA1MScxOC42IkU!5e0!3m2!1sen!2sus!4v1724266891256!5m2!1sen!2sus" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <h3 class="gallery-title">Property Gallery</h3>
+            <div class="gallery-slider">
+                <div class="gallery-cards">
+                    <div class="gallery-card">
+                        <img src="project12.jpg" alt="Colombo City Centre Main Image">
+                    </div>
+                    <div class="gallery-card">
+                        <img src="project12_2.jpg" alt="Colombo City Centre Additional Image 1">
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-slider-controls">
+                <button class="control-btn" onclick="prevSlide()">&#10094; Prev</button>
+                <button class="control-btn" onclick="nextSlide()">Next &#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sapumal Real Estate. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 5 - Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logoicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+    <a href="index.html">
+        <img src="logo.png" alt="Sapumal Real Estate Logo" class="logo">
+    </a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="project-title">Project 5: Capitol TwinPeaks</h2>
+        
+        <div class="project-details">
+            <div class="details">
+                <h3>Project Details</h3>
+                <p><strong>Description:</strong> Capitol TwinPeaks, Colombo 02, is a world-class luxury apartment project by Capitol Towers of Sanken Group. This towering condominium features 475 luxury units, 36 floor plans, and over 500 parking spaces across 9 floors. Designed to elevate luxury living, Capitol TwinPeaks offers a premium residential experience with a wide range of lifestyle amenities.</p>
+                <p><strong>Price:</strong> LKR 72M</p>
+                <p><strong>Size:</strong> 771-1976 SQFT</p>
+                <p><strong>Amenities:</strong> Swimming Pool, BBQ Area, Business Center, Restaurant etc.</p>
+            </div>
+            
+            <div class="map">
+                <h3>Location</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1980.3772891142387!2d79.85501!3d6.919916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25914d4bec4cd%3A0x955c3aa8f26c19da!2sCapitol%20TwinPeaks!5e0!3m2!1sen!2sus!4v1724264077970!5m2!1sen!2sus" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <h3 class="gallery-title">Property Gallery</h3>
+            <div class="gallery-slider">
+                <div class="gallery-cards">
+                    <div class="gallery-card">
+                        <img src="project5.jpg" alt="Capitol TwinPeaks Project Main Image">
+                    </div>
+                    <div class="gallery-card">
+                        <img src="project5_2.jpg" alt="Capitol TwinPeaks Project Additional Image 1">
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-slider-controls">
+                <button class="control-btn" onclick="prevSlide()">&#10094; Prev</button>
+                <button class="control-btn" onclick="nextSlide()">Next &#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sapumal Real Estate. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

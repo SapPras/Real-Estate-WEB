@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logoicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+    <a href="index.html">
+        <img src="logo.png" alt="Sapumal Real Estate Logo" class="logo">
+    </a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Please fill out the form below or use the contact information provided.</p>
+
+            <form class="contact-form" id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="map-container">
+                <h3>Our Location</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7921.829240673444!2d79.853639!3d6.9008140000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a4cf906f823%3A0x75d454618a056050!2sLanka%20Property%20Web!5e0!3m2!1sen!2sid!4v1724267131631!5m2!1sen!2sid" 
+                    allowfullscreen=""
+                    loading="lazy"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <div class="popup" id="popup">
+        <p>Message Sent!</p>
+        <button class="popup-button" onclick="closePopup()">OK</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Real Estate Company. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

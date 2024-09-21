@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Real Estate </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logoicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+    <a href="index.html">
+        <img src="logo.png" alt="Sapumal Real Estate Logo" class="logo">
+    </a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="project-title">Project 1: Trillium Duplex Residencies</h2>
+        
+        <div class="project-details">
+            <div class="details">
+                <h3>Project Details</h3>
+                <p><strong>Description:</strong> Trillium Duplex is Colombo's first boutique duplex-only development in Colombo 5. This 15-floor property features 2 to 5-bedroom apartments, each with three car parks and a rooftop space. Enjoy amenities like 24-hour security, a pool, and a fully-equipped gym, all in a tranquil, green neighborhood. Discover the perfect mix of comfort and luxury at Trillium Duplex—your dream home in a prestigious location.</p>
+                <p><strong>Price:</strong> LKR 62M</p>
+                <p><strong>Size:</strong> 1100-2300 SQFT</p>
+                <p><strong>Amenities:</strong> Swimming Pool, Car Parking, Garbage Removal, AC, GYM, Kids Play Area and more.</p>
+            </div>
+            
+            <div class="map">
+                <h3>Location</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d15844.376674274661!2d79.878997!3d6.879321!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTInNDUuNiJOIDc5wrA1Mic0NC40IkU!5e0!3m2!1sen!2sus!4v1724261502232!5m2!1sen!2sus" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <h3 class="gallery-title">Property Gallery</h3>
+            <div class="gallery-slider">
+                <div class="gallery-cards">
+                    <div class="gallery-card">
+                        <img src="project1.jpg" alt="Trillium Duplex Residencies Project Main Image">
+                    </div>
+                    <div class="gallery-card">
+                        <img src="project1_2.jpg" alt="Trillium Duplex Residencies Project Additional Image 1">
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-slider-controls">
+                <button class="control-btn" onclick="prevSlide()">&#10094; Prev</button>
+                <button class="control-btn" onclick="nextSlide()">Next &#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sapumal Real Estate. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
